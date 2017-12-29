@@ -1,0 +1,79 @@
+/*
+* Colors
+* BLUE: #12254f
+* DarkBlue: #09152f
+* LGREY: #fdfbfc
+* PINK: #ff725e
+* Other Pink: #faddce
+*
+*/
+
+body{
+    background-color: #12254f;
+}
+#main {
+    background-color: #FFFFFF;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.up-15 {
+    margin-top: -15px;
+}
+
+.txt-pink {
+    color: #ff725e;
+}
+.bg-grey {
+    background-color: #fdfbfc;
+}
+.bg-pink {
+    background-color: #faddce;
+}
+.bg-darkblue {
+    background-color: #09152f;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 10px #f5f5f5;
+}
+.box-shadow-dark {
+    box-shadow: 5px 5px 10px #999;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #12254f;
+    border-color: #12254f;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #09152f;
+    border-color: #09152f;
+}
+
+.callbox-left {
+    margin: auto 250px auto -100px;
+}
+.callbox-right {
+    margin: auto -100px auto 250px;
+}
+.hero-banner {
+    background-image: url(http://via.placeholder.com/1200x550);
+    background-size: cover;
+    padding: 20% 0 10%;
+}
+#querysearch {
+    border-radius: 50px;
+}
+.hero-lead {
+    font-style: italic;
+    color: #FFF;
+    font-size: 18px;
+}
